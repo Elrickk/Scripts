@@ -16,7 +16,7 @@ nb_caracteres=${#caracteres}
 i=1
 while [ $i -le "$lg_mot_de_passe" ]
 do
-      # Tirer une valeur aleatoire entre 1 et le nombre                             de
+     # Tirer une valeur aleatoire entre 1 et le nombre de
      # caracteres dans la liste autorisee.
      n=$((1 + ${RANDOM} % ${nb_caracteres}))
  
