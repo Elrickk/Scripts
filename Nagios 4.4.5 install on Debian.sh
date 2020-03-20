@@ -1,3 +1,4 @@
+#! /bin/bash
 
 apt-get update
 apt-get install -y autoconf gcc libc6 make wget unzip apache2 apache2-utils php libgd-dev
