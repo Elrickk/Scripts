@@ -33,17 +33,8 @@
   apt install -y mariadb-server
   mysql_secure_installation
 
-# Connexion à la Base de données
-  mysql -u root -p
-
-# On créé ensuite un utilisateur avec tous les droits pour ne pas utiliser root
-# CREATE USER 'elrick'@'localhost' IDENTIFIED BY 'mdp';
-#  GRANT ALL PRIVILEGES ON *.* TO 'elrick'@'localhost' WITH GRANT OPTION;
-#  FLUSH PRIVILEGES;
-
-  exit
-
+  
   systemctl enable mariadb
 
 
-# Le serveur LAMP est installé !
+echo Le serveur LAMP est installé !
