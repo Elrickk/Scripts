@@ -18,5 +18,5 @@
 
   apt-get install docker-ce docker-ce-cli containerd.io -y
 
-  systemctl status docker
+  systemctl start docker
   systemctl enable docker
