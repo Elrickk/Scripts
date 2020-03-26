@@ -1,7 +1,7 @@
 
 # Installer les dépendances :
 
-  apt -y install apt-transport-https ca-certificates curl gnupg2 software-properties-common
+  apt install apt-transport-https ca-certificates curl gnupg2 software-properties-common -y
 
 # Importer la signature du dépôt à notre système
 
