@@ -1,6 +1,6 @@
 # Download metasploit :
 
-curl https://raw.githubusercontent.com/rapid7/metasploit-omnibus/master/config/templates/metasploit-framework-wrappers/msfupdate.erb > msfinstall
+curl https://github.com/rapid7/metasploit-omnibus/blob/master/config/templates/metasploit-framework-wrappers/msfupdate.erb > msfinstall
 
 # Once the script is downloaded, make it executable :
 chmod +x msfinstall
